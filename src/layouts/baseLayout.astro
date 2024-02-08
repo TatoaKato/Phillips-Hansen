@@ -1,6 +1,7 @@
 ---
 import Navigation from '../components/navigation.astro';
 import Footer from '../components/footer.astro';
+import '../styles/global.css';
 const { pageTitle } = Astro.props;
 ---
 
@@ -13,8 +14,10 @@ const { pageTitle } = Astro.props;
     <title>{pageTitle}</title>
   </head>
   <body>
-    <h1>Phillips-Hansen Land Title</h1>
-    <Navigation/>
+    <div class="header">
+      <h1>Phillips-Hansen Land Title</h1>
+      <Navigation/>
+    </div>
     <h1>{pageTitle}</h1>
     <slot/>
     <Footer/>
