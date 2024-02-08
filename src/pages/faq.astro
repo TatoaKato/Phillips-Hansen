@@ -1,4 +1,6 @@
 ---
+import BaseLayout from "../layouts/baseLayout.astro";
+const pageTitle = "FAQ";
 ---
 
 <html lang="en">
@@ -10,6 +12,12 @@
     <title>FAQ</title>
   </head>
   <body>
-    <h1>Astro</h1>
+    <BaseLayout pageTitle={pageTitle}>
+      <ul>
+        <li>fact 1</li>
+        <li>fact 2</li>
+        <li>fact 3</li>
+      </ul>
+    </BaseLayout>
   </body>
 </html>

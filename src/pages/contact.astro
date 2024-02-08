@@ -1,15 +1,14 @@
 ---
+import BaseLayout from '../layouts/baseLayout.astro';
+import Social from '../components/social.astro';
+const pageTitle = "Contact Us";
+const phone = "666-666-6666"
+const email = "test@test.com"
 ---
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} >
-    <title>Contact Us</title>
-  </head>
-  <body>
-    <h1>Astro</h1>
-  </body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+  <p> Our Contact information</p>
+    <p>{phone}</p>
+    <p>{email}</p>
+    <Social platform="facebook" username="example"/>
+    <Social platform="instagram" username="example"/>
+</BaseLayout>

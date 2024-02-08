@@ -1,19 +1,10 @@
 ---
+import BaseLayout from '../layouts/baseLayout.astro';
+const pageTitle = "Services";
 ---
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} >
-    <title>Services</title>
-  </head>
-  <body>
-    <h1>Astro</h1>
-    <ul>
-      <li><a href="/services/service-1/">Title Services</a></li>
-      <li><a href="/services/service-2/">Escrow Services</a></li>
-    </ul>
-  </body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+  <ul>
+    <li><a href="/services/service-1/">Title Services</a></li>
+    <li><a href="/services/service-2/">Escrow Services</a></li>
+  </ul>
+</BaseLayout>
