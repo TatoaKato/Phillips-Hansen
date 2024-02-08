@@ -3,8 +3,45 @@ title: 'Title Services'
 ---
 # Title Services
 
-Something about title services that is cool and interesting
+There are two types of title insurance 
+<ul>
+<li>Owners Coverage</li>
+<ul>
+<li>
+Owner's title insurance, also known as owner's coverage, is a type of insurance policy that protects real estate owners from financial loss due to defects in the title of the property. When you buy a home, you expect to be the rightful owner of the property. However, there can be hidden issues with the title, such as errors or undisclosed liens, which may jeopardize your ownership rights.
 
+Owner's title insurance helps protect against these risks by providing coverage for:
+
+Title Defects: This includes errors or omissions in deeds, mistakes in public records, undisclosed heirs claiming ownership, or fraud in the title transfer process.
+
+Liens and Encumbrances: These are claims against the property, such as unpaid taxes, mortgages, or judgments, which could affect your ownership rights.
+
+Legal Costs: Owner's title insurance typically covers legal fees and expenses associated with defending your title against covered claims.
+
+Marketability of Title: If a covered defect arises, owner's title insurance can provide financial compensation for loss of marketable title, which could affect your ability to sell the property in the future.
+
+It's important to note that owner's title insurance is typically purchased as a one-time premium during the real estate transaction, usually at the time of closing. The coverage lasts for as long as you or your heirs own the property. While it's not mandatory, it's highly recommended as it provides valuable protection against unforeseen title issues that could arise after the purchase of the property.</li>
+</ul>
+
+<li>Lender or Morgage Protection</li>
+<ul>
+<li>
+Lender's title insurance, also known as mortgagee's title insurance or lender's coverage, is a type of insurance policy that protects the lender's investment in a mortgage loan by ensuring that the property's title is clear of any defects or issues that could jeopardize the lender's security interest in the property.
+
+When a borrower takes out a mortgage loan to purchase real estate, the lender typically requires lender's title insurance as a condition of the loan. This policy protects the lender against financial loss if there are any defects in the title that were not discovered during the title search and examination process.
+
+Lender's title insurance typically covers:
+
+Title Defects: This includes errors or omissions in deeds, mistakes in public records, undisclosed liens, or other issues that could affect the lender's priority lien position or ability to foreclose on the property.
+
+Invalid or Forged Documents: Protection against documents that are invalid or forged, which could potentially cloud the lender's title.
+
+Priority of Liens: Ensuring that the lender's lien has priority over other claims against the property.
+
+Legal Costs: Coverage for legal fees and expenses associated with defending the lender's title against covered claims.
+
+Lender's title insurance is typically paid for by the borrower as part of the closing costs associated with obtaining a mortgage loan. It's important to note that while lender's title insurance protects the lender's interest in the property, it does not protect the borrower's interest. For this reason, borrowers are often encouraged to purchase their own owner's title insurance policy to protect their investment in the property.</li>
+</ul>
 ## What Title services do we provide
 
 1. do this thing with title

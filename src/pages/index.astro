@@ -1,9 +1,19 @@
 ---
 import BaseLayout from "../layouts/baseLayout.astro";
+import { Image } from 'astro:assets';
+import logo from '../Images/Insurance no back.png';
+import logo2 from '../Images/Escrow no back.png';
+import buildingwide from '../Images/BuildingWide.jpg';
 const pageTitle = "Home";
+
+
 
 ---
 <BaseLayout pageTitle={pageTitle}>
+  <div>
+    <Image src={buildingwide} alt="Our Building"/ height={610} width={916}></Image>
+  </div>
+
   <div class = "mission statement">
     <h2>Our Mission</h2>
     <p>
@@ -18,8 +28,12 @@ const pageTitle = "Home";
   </div>
   <div class = "services">
     <h2>Our Services</h2>
-    <img src = "" alt = "Title Insurance">
+    <Image src={logo} alt="Title Logo"/>
+    <h3>Title Services</h3>
+    <Image src={logo2} alt="Escrow Logo"/>
+    <h3>Escrow Services</h3>
   </div>
+
 </BaseLayout>
   </body>
 </html>
