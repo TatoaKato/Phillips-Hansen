@@ -4,8 +4,9 @@ import Social from '../components/social.astro';
 import { isValidEmail } from "../components/emailVerification"  
 import { isValidPhoneNumber } from "../components/phoneVerification"  
 const pageTitle = "Contact Us";
-const phoneNumber = "666-666-6666"
-const email = "test@test.com"
+const phoneNumber = "435-723-6806"
+const phoneNumber2 = "435-723-3503"
+const email = "bruce@phillips-hansen.net"
 
 const errors = { username: "", email: "", about: "" };
 if (Astro.request.method === "POST") {
@@ -37,8 +38,9 @@ if (Astro.request.method === "POST") {
 ---
 <BaseLayout pageTitle={pageTitle}>
   <p> Our Contact information</p>
-    <p>{phoneNumber}</p>
-    <p>{email}</p>
+    <a href="tel:435-723-6806">{phoneNumber}</a>
+    <a href="tel:435-723-3503">{phoneNumber2}</a>
+    <a href="mailto:bruce@phillips-hansen.net">{email}</a>
 
     <h1>Register</h1>
   <form action= "https://formspree.io/f/mkndraqp" method="POST">
