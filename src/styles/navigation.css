@@ -1,13 +1,14 @@
 .navigation {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 a {
     text-decoration: none;
     background-color: rgb(205, 82, 38, .70);
     padding: 15px 28px;
+    margin: 0px 5px;
 }
 
 a:hover {
