@@ -41,6 +41,8 @@ if (Astro.request.method === "POST") {
     <a href="tel:435-723-6806">{phoneNumber}</a>
     <a href="tel:435-723-3503">{phoneNumber2}</a>
     <a href="mailto:bruce@phillips-hansen.net">{email}</a>
+    <Social platform="facebook" username="example"/>
+    <Social platform="instagram" username="example"/>
 
     <h1>Register</h1>
   <form action= "https://formspree.io/f/mkndraqp" method="POST">
@@ -78,6 +80,4 @@ if (Astro.request.method === "POST") {
     {errors.about && <p>{errors.about}</p>}
     <button>Send</button><br>
   </form>
-    <Social platform="facebook" username="example"/>
-    <Social platform="instagram" username="example"/>
 </BaseLayout>
