@@ -1,5 +1,6 @@
 ---
 import Social from './social.astro';
+import "../styles/footer.css"
 const phone = "435-723-6806"
 const phone2 = "435-723-3503"
 
@@ -8,9 +9,11 @@ const email = "bruce@phillips-hansen.net"
 
 <footer>
     <p> Our Contact information</p>
-    <a href="tel:435-723-6806">{phone}</a>
-    <a href="tel:435-723-3503">{phone2}</a>
-    <a href="mailto:bruce@phillips-hansen.net">{email}</a>
-    <a href="https://www.facebook.com/profile.php?id=61555932096487">Facebook</a>
-    <Social platform="Instagram" username="phillips_hansen_land_title"/>
+    <div class = "contact">
+        <a href="tel:435-723-6806">{phone}</a>
+        <a href="tel:435-723-3503">{phone2}</a>
+        <a href="mailto:bruce@phillips-hansen.net">{email}</a>
+        <a href="https://www.facebook.com/profile.php?id=61555932096487">Facebook</a>
+        <a href="https://www.instagram.com/phillips_hansen_land_title">Instagram</a>
+    </div>
 </footer>

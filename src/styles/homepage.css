@@ -1,3 +1,48 @@
 .missionWrapper {
     display: flex;
+    background-color: rgb(215, 223, 242,.50);
+    border-radius: 15px;
+}
+
+.homepageImage {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.missionStatement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(215, 223, 242,.50);
+    border-radius: 15px;
+}
+
+.escrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(215, 223, 242,.50);
+    border-radius: 15px;
 }
