@@ -1,4 +1,9 @@
-.social { 
+.contact { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials {
     display: flex;
     justify-content: center;
     align-items: center;
