@@ -45,8 +45,8 @@
 }
 
 
-.title a:hover{ 
-    filter: drop-shadow(14px ,11px , 5px, #4E3B3D);
+.title a:hover { 
+    filter: drop-shadow(14px 11px 5px #4E3B3D);
 }
 .escrow {
     display: flex;
@@ -58,5 +58,5 @@
 }
 
 .escrow a:hover {
-        filter: drop-shadow(14px 11px 5px #4E3B3D);
+    filter: drop-shadow(14px 11px 5px #4E3B3D);
 }
