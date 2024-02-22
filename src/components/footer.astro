@@ -1,5 +1,8 @@
 ---
 import "../styles/footer.css"
+import { Image } from 'astro:assets';
+import facebook from "../Images/facebook.jpg";
+import instagram from "../Images/instagram.jpg";
 const phone = "435-723-6806"
 const phone2 = "435-723-3503"
 
@@ -7,7 +10,7 @@ const email = "bruce@phillips-hansen.net"
 ---
 
 <footer>
-    <p> Our Contact information</p>
+    <h2> Our Contact information</h2>
     <div class = "contactUs">
         <a href ="/contact">Contact us now</a>
     </div>
@@ -17,7 +20,7 @@ const email = "bruce@phillips-hansen.net"
         <a href="mailto:bruce@phillips-hansen.net">{email}</a>
     </div>
     <div class="socials">
-        <a href="https://www.facebook.com/profile.php?id=61555932096487">Facebook</a>
-        <a href="https://www.instagram.com/phillips_hansen_land_title">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61555932096487"><Image src = {facebook} alt = "facebook"/></a>
+        <a href="https://www.instagram.com/phillips_hansen_land_title"><Image src = {instagram} alt = "instagram"/></a>
     </div>    
 </footer>
