@@ -30,12 +30,10 @@
 }
 
 .services a {
-    background-color: #e0c6ae;
+    background-color: rgb(216,217,225);
+    border-radius: 15px;
 }
 
-.title :hover{ 
-    filter: drop-shadow(0,0,0, #e0c6ae);
-}
 
 .title {
     display: flex;
@@ -44,10 +42,12 @@
     flex-direction: column;
     background-color: rgb(216,217,225);
     border-radius: 15px;
-    filter: drop-shadow(14px 11px 5px #4E3B3D);
-    
 }
 
+
+.title a:hover{ 
+    filter: drop-shadow(14px ,11px , 5px, #4E3B3D);
+}
 .escrow {
     display: flex;
     align-items: center;
@@ -55,5 +55,8 @@
     flex-direction: column;
     background-color: rgb(216,217,225);
     border-radius: 15px;
-    filter: drop-shadow(14px 11px 5px #4E3B3D);
+}
+
+.escrow a:hover {
+        filter: drop-shadow(14px 11px 5px #4E3B3D);
 }

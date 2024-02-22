@@ -1,26 +1,26 @@
 ---
 import BaseLayout from '../layouts/baseLayout.astro';
-import "../styles/services.css"
+import '../styles/homepage.css'
 import { Image } from 'astro:assets';
 import titleLogo from '../Images/Insurance no back.png';
-import escrow from '../Images/Escrow no back.png';
-import '../styles/homepage.css'
+import escrowLogo from '../Images/Escrow no back.png';
 const pageTitle = "Services";
 ---
 <BaseLayout pageTitle={pageTitle}>
   <div class = "services">
-    <a href = "/services/titleServices">
     <div class = "title">
-    <Image src={titleLogo} alt="Title Logo"/>
-    <h3>Title Services</h3>
-  </div>
-  </a>
-  <a href = "/services/escrowServices">
-  <div class = "escrow">
-    <Image src={escrow} alt="Escrow Logo"/>
-    <h3>Escrow Services</h3>
-  </div>
-  </a>
+      <a href = "/services/titleServices">
+      <Image src={titleLogo} alt="Title Logo"/>
+      <h3>Title Services</h3>
+      </a>
+    </div>
+ 
+    <div class = "escrow">
+      <a href = "/services/escrowServices">
+      <Image src={escrowLogo} alt="Escrow Logo"/>
+      <h3>Escrow Services</h3>
+      </a>
+    </div>
   </div>
 
 </BaseLayout>
