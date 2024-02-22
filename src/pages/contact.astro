@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/baseLayout.astro';
+import '../styles/contact.css';
 import { isValidEmail } from "../components/emailVerification"  
 const pageTitle = "Contact Us";
 const phoneNumber = "435-723-6806"
@@ -34,15 +35,10 @@ if (Astro.request.method === "POST") {
   }
 }
 ---
-<BaseLayout pageTitle={pageTitle}>
-  <p> Our Contact information</p>
-    <a href="tel:435-723-6806">{phoneNumber}</a>
-    <a href="tel:435-723-3503">{phoneNumber2}</a>
-    <a href="mailto:bruce@phillips-hansen.net">{email}</a>
-    <a href="https://www.facebook.com/profile.php?id=61555932096487">Facebook</a>
-    <a href="https://www.instagram.com/phillips_hansen_land_title">Instagram</a>
 
-    <h1>Register</h1>
+<BaseLayout pageTitle={pageTitle}>
+
+    <h2>Your Info</h2>
   <form action= "https://formspree.io/f/mkndraqp" method="POST">
     <label>
       Full Name:
