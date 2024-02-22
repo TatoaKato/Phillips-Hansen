@@ -1,5 +1,13 @@
+footer { 
+    background-color: #70575a;
+    margin-top: 150px;
+    padding-top: 30px;
+    filter: drop-shadow(14px 11px 5px #4E3B3D);
+}
+
 h2 {
     text-align: center;
+    color: #e0c6ae
 }
 
 .contactUs { 
@@ -36,7 +44,8 @@ h2 {
 }
 
 .socials a {
-    background-color: #e0c6ae;
+    background-color: #70575a;
+
 }
 
 .socials img {

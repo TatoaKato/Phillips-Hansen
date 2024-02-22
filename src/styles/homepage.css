@@ -29,13 +29,23 @@
 
 }
 
+.services a {
+    background-color: #e0c6ae;
+}
+
+.title :hover{ 
+    filter: drop-shadow(0,0,0, #e0c6ae);
+}
+
 .title {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(215, 223, 242,.50);
+    background-color: rgb(216,217,225);
     border-radius: 15px;
+    filter: drop-shadow(14px 11px 5px #4E3B3D);
+    
 }
 
 .escrow {
@@ -43,6 +53,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(215, 223, 242,.50);
+    background-color: rgb(216,217,225);
     border-radius: 15px;
+    filter: drop-shadow(14px 11px 5px #4E3B3D);
 }

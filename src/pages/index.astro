@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/baseLayout.astro";
 import { Image } from 'astro:assets';
-import "../styles/homepage.css"
+import "../styles/homepage.css";
 import logo from '../Images/Insurance no back.png';
 import logo2 from '../Images/Escrow no back.png';
 import buildingwide from '../Images/BuildingWide.jpg';
@@ -32,14 +32,19 @@ const pageTitle = "Home";
   </div>
   <h2>Our Services</h2>
   <div class = "services">
+    <a href = "/services/titleServices">
     <div class = "title">
     <Image src={logo} alt="Title Logo"/>
     <h3>Title Services</h3>
   </div>
+  </a>
+ 
+  <a href = "/services/escrowServices">
   <div class = "escrow">
     <Image src={logo2} alt="Escrow Logo"/>
     <h3>Escrow Services</h3>
   </div>
+</a>
   </div>
 
 </BaseLayout>
