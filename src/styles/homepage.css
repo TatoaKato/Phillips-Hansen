@@ -12,6 +12,10 @@
     margin-left: 20px;
 }
 
+.mission h2 {
+    color: #4E3B3D;
+}
+
 .missionStatement {
     display: flex;
     justify-content: center;

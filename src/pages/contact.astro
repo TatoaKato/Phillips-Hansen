@@ -37,41 +37,50 @@ if (Astro.request.method === "POST") {
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-
+    <div class = "yourInfo">
     <h2>Your Info</h2>
+    </div>
+    <div class = "form">
   <form action= "https://formspree.io/f/mkndraqp" method="POST">
-    <label>
+    <div class = "formStuff">
+    <div class = "npe">
+      <label>
       Full Name:
       <input type="text" name="name"required />
     </label>
     {errors.username && <p>{errors.username}</p>}
-    <label><br>
+    <label>
       Email:
       <input type="email" name="email" required />
-    </label><br>
+    </label>
     {errors.email && <p>{errors.email}</p>}
     <label>
       Phone Number:
       <input type="text" id="phone" name="phone" required />
-    </label><br>
+    </label>
+      </div>
+      <div class = "pref">
     <label>
-      Contact Prefrence:<br>
+      Contact Prefrence:
       <input type="radio" name="contactPreference" value="email">
       Email
-  </label><br>
+  </label>
   <label>
       <input type="radio" name="contactPreference" value="phone">
       Phone
-  </label><br>
+  </label>
   <label>
       <input type="radio" name="contactPreference" value="both">
       Both
-  </label><br>
-    <label>
-      What can we help you with?
-      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
-    </label><br>
+  </label>
+      </div>
+      <h3>What can we help you with?</h3>
+      <label>
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+    </label>
     {errors.about && <p>{errors.about}</p>}
-    <button>Send</button><br>
+    <button>Send</button>
+  </div>
   </form>
+</div>
 </BaseLayout>
