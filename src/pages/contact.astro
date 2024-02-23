@@ -43,44 +43,44 @@ if (Astro.request.method === "POST") {
     <div class = "form">
   <form action= "https://formspree.io/f/mkndraqp" method="POST">
     <div class = "formStuff">
-    <div class = "npe">
-      <label>
-      Full Name:
-      <input type="text" name="name"required />
-    </label>
-    {errors.username && <p>{errors.username}</p>}
-    <label>
-      Email:
-      <input type="email" name="email" required />
-    </label>
-    {errors.email && <p>{errors.email}</p>}
-    <label>
-      Phone Number:
-      <input type="text" id="phone" name="phone" required />
-    </label>
+      <div class = "npe">
+        <label>
+          Full Name:
+          <input type="text" name="name"required />
+        </label>
+        {errors.username && <p>{errors.username}</p>}
+        <label>
+          Email:
+          <input type="email" name="email" required />
+        </label>
+        {errors.email && <p>{errors.email}</p>}
+        <label>
+          Phone Number:
+          <input type="text" id="phone" name="phone" required />
+        </label>
       </div>
       <div class = "pref">
-    <label>
-      Contact Prefrence:
-      <input type="radio" name="contactPreference" value="email">
-      Email
-  </label>
-  <label>
-      <input type="radio" name="contactPreference" value="phone">
-      Phone
-  </label>
-  <label>
-      <input type="radio" name="contactPreference" value="both">
-      Both
-  </label>
+        <label>
+          Contact Prefrence:
+          <input type="radio" name="contactPreference" value="email">
+          Email
+        </label>
+        <label>
+          <input type="radio" name="contactPreference" value="phone">
+          Phone
+        </label>
+        <label>
+          <input type="radio" name="contactPreference" value="both">
+          Both
+        </label>
       </div>
       <h3>What can we help you with?</h3>
       <label>
-      <textarea id="message" name="message" rows="4" cols="50" required></textarea>
-    </label>
-    {errors.about && <p>{errors.about}</p>}
-    <button>Send</button>
-  </div>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+      </label>
+      {errors.about && <p>{errors.about}</p>}
+      <button>Send</button>
+    </div>
   </form>
 </div>
 </BaseLayout>

@@ -1,6 +1,6 @@
 .missionWrapper {
     display: flex;
-    background-color: rgb(215, 223, 242,.50);
+    background-color: rgb(216,217,225);
     border-radius: 15px;
 }
 
@@ -44,21 +44,19 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(216,217,225);
-    border-radius: 15px;
 }
 
 
 .title a:hover { 
     filter: drop-shadow(14px 11px 5px #4E3B3D);
 }
+
 .escrow {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(216,217,225);
-    border-radius: 15px;
+    
 }
 
 .escrow a:hover {
