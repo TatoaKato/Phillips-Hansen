@@ -17,14 +17,19 @@ const pageTitle = "Our Team";
   </head>
   <body>
     <BaseLayout pageTitle={pageTitle}>
-        <ul>
+      <div class = "bioWrapper">
+        <div class = "image">
+          <Image src= {bruce} alt= "Bruce Evans" />
+        </div>
+        <div class = "nameb">
           <div class = "name">
-            <li><h3>Bruce Evans</h3></li>
+            <h3>Bruce Evans</h3>
           </div>
-            <li><Image src= {bruce} alt= "Bruce Evans" /></li>
-            <ul>
-              <li><b>Owner/President: Phillips-Hansen Land Title Company</b></li>
-              <li>I have a great love of everything outdoors: hunting, fishing, snowmobiling, horseback riding, cars and
+          <div class = "title">
+            <b>Owner/President: Phillips-Hansen Land Title Company</b>
+          </div>
+            <div class = "description">
+              I have a great love of everything outdoors: hunting, fishing, snowmobiling, horseback riding, cars and
                 motorcycles. My greatest love is for my family. My wife Kim and I have been married for 38 years. We
                 have three awesome sons and with their wives have 9 grandchildren. We are now to the point of being a
                 part of their busy lives.<br>
@@ -40,34 +45,48 @@ const pageTitle = "Our Team";
                 would help me learn the ropes of the title business. I will be forever grateful for his influence and
                 teaching. With the help of Al and many other individuals within the industry I have come to love and
                 appreciate what I have done for the past 37 years. I have seen great upswings in business, as well as
-                tremendous down falls.</li>
-          </ul>
+                tremendous down falls.
+            </div>
         </div>
-      
-        <div class = "name">
-          <li><h3>Haylee Tolman</h3></li>
-        </div>
-          <li><Image src= {haylee} alt= "Haylee Tolman" /></li>
-          <ul>
-            <li><b> Escrow Payments and Policy Documentation</b></li>
-            <li>Thriving at Phillips-Hansen, where I manage escrow payments and draft policies!<br>
-              I cherish connecting with our customers. Beyond work, I indulge in outdoor adventures - 
-              from water sports to sunset strolls, cherishing moments with loved ones.</li>
-          </ul>
-      
-      <div class = "name">
-          <li><h3>Katie Hoogs</h3></li>
       </div>
-          <li><Image src= {katie} alt = "Katie Hoogs"/></li>
-          <ul>
-            <li><b>Social Media and Online Management</b></li>
-            <li>I keep us up to date in the modern world! I oversee everything online including building 
+      <div class = "bioWrapper">
+        <div class = "nameb">
+          <div class = "name">
+            <h3>Haylee Tolman</h3>
+          </div>
+          <div class = "title">
+            <b> Escrow Payments and Policy Documentation</b>
+          </div>
+            <div class = "description">
+              Thriving at Phillips-Hansen, where I manage escrow payments and draft policies!<br>
+              I cherish connecting with our customers. Beyond work, I indulge in outdoor adventures - 
+              from water sports to sunset strolls, cherishing moments with loved ones.
+            </div>
+        </div>
+        <div class = "image">
+          <Image src= {haylee} alt= "Haylee Tolman" />
+        </div>
+      </div>
+      <div class = "bioWrapper">
+        <div class = "image">
+          <Image src= {katie} alt= "Katie Hoogs" />
+        </div>
+        <div class = "nameb">
+          <div class = "name">
+            <h3>Katie Hoogs</h3>
+          </div>
+          <div class = "title">
+            <b>Social Media and Online Management</b>
+          </div>
+            <div class = "description">
+              I keep us up to date in the modern world! I oversee everything online including building 
               and managing our new website and our social media pages. I am a current student at Weber State University, 
               studying Cybersecurity and Network Management. Outside of work I like to play video games, be outdoors, and travel. 
-              I have been to 10 countries outside the United States and hope to see more of the world. </li>
-          </ul>
+              I have been to 10 countries outside the United States and hope to see more of the world.
+            </div>
+        </div>
       </div>
-      </ul>
+        
     </BaseLayout>
   </body>
 </html>

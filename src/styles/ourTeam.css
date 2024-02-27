@@ -1,16 +1,22 @@
-.name {
+.bioWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-   padding-top: 55px;
-   padding-bottom: 0px;
-    margin: 0px 5px;
 }
 
-li {
+.image img {
+    height: auto;
+    width: 300px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items:last baseline;
+}
+
+.nameb {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    padding-bottom: 15px;
+    flex-direction: column;
 }
