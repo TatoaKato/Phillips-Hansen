@@ -9,15 +9,14 @@
     border-radius: 15px;
     padding: 25px;
     margin-left: 50px;
- 
 }
+
 .formStuff {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-
 
 .npe input {
     width: 100%;

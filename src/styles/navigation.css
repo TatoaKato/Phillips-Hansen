@@ -7,9 +7,10 @@
 
 a {
     text-decoration: none;
+    color: #4E3B3D;
     background-color: rgb(205, 82, 38, .70);
     padding: 15px 28px;
-    margin: 0px 5px;
+    margin: 5px 5px;
     border-radius: 5px;
 }
 
