@@ -1,0 +1,16 @@
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 55px;
+   padding-bottom: 0px;
+    margin: 0px 5px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
