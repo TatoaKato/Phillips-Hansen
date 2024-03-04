@@ -1,11 +1,15 @@
 ---
 import BaseLayout from '../layouts/baseLayout.astro';
+import "../styles/about.css";
+import bn from '../Images/building name.jpg';
+import { Image } from 'astro:assets';
 const pageTitle = "About Us";
 ---
 <BaseLayout pageTitle={pageTitle}>
   <h3>Established 1904</h3>
 
   <p>
+    <Image src = {bn} alt = "Business Name"/>
     John W. Phillips started an abstract company in 1904. His 
     business was called John W. Phillips Abstracting. He worked 
     in that office until the mid 1950’s when he sold the business 
