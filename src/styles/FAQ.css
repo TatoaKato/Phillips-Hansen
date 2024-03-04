@@ -1,0 +1,24 @@
+.FAQ {
+    background-color: rgb(216,217,225);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.qs {
+    font-size: larger;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a {
+    font-size: x-large;
+}
+
