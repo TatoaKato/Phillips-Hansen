@@ -10,19 +10,16 @@ const pageTitle = "Home";
 
 
 ---
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout>
   
-
+  <h2>Our Mission</h2>
   <div class = "missionWrapper">
     <div class = "homepageImage">
       <Image src={buildingwide} alt="Our Building"/>
     </div>
     <div class="missionStatement">
-      <div class = mission>
-      <h2>Our Mission</h2>
-    </div>
       <p>
-        "At Phillips-Hansen Land Title, our mission is to provide exceptional title and escrow 
+        At Phillips-Hansen Land Title, our mission is to provide exceptional title and escrow 
         services to our clients with integrity, accuracy, and efficiency. We are dedicated to safeguarding 
         the real estate investments of our community by conducting thorough title searches, offering 
         comprehensive title insurance coverage, and facilitating smooth and timely closings. With a commitment 
@@ -32,23 +29,28 @@ const pageTitle = "Home";
       </p>
     </div>
   </div>
-  <h2>Our Services</h2>
-  <div class = "services">
-    <div class = "title">
-      <a href = "/services/titleServices">
-      <Image src={logo} alt="Title Logo"/>
-      <h3>Title Services</h3>
+  <div class="servicesWrapper">
+    <h2>Our Services</h2>
+    <div class = "services">
+      <div class = "title">
+        <a href = "/services/titleServices">
+        <Image src={logo} alt="Title Logo"/>
+        <div class="ServiceLabel">
+          <h3>Title Services</h3>
+        </div>
+        </a>
+      </div>
+  
+      <div class = "escrow">
+        <a href = "/services/escrowServices">
+        <Image src={logo2} alt="Escrow Logo"/>
+        <div class="ServiceLabel">
+          <h3>Escrow Services</h3>
+        </div>  
       </a>
-    </div>
- 
-    <div class = "escrow">
-      <a href = "/services/escrowServices">
-      <Image src={logo2} alt="Escrow Logo"/>
-      <h3>Escrow Services</h3>
-    </a>
+      </div>
     </div>
   </div>
-
 </BaseLayout>
   </body>
 </html>

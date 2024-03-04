@@ -1,16 +1,19 @@
 .missionWrapper {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(216,217,225);
     border-radius: 15px;
+    
 }
 
-.homepageImage {
-    display: flex;
-    justify-content: center;
-    align-items:flex-end;
-    margin-bottom: 20px;
-    margin-left: 20px;
+.homepageImage img {
+    width: auto;
+    height: 300px;
+    margin-left: 25px;
+    
 }
+
 
 .mission h2 {
     color: #4E3B3D;
@@ -21,16 +24,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 20px;
+}
+
+.servicesWrapper{
+    margin-top: 75px;
 }
 
 .services {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-
 }
 
 .services a {
@@ -48,7 +53,7 @@
 
 
 .title a:hover { 
-    filter: drop-shadow(14px 11px 5px #4E3B3D);
+    filter: drop-shadow(12px 7px 5px #4E3B3D);
 }
 
 .escrow {
@@ -60,5 +65,9 @@
 }
 
 .escrow a:hover {
-    filter: drop-shadow(14px 11px 5px #4E3B3D);
+    filter: drop-shadow(12px 7px 5px #4E3B3D);
+}
+
+.servicesLabel h3{
+    color:#4E3B3D;
 }

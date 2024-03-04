@@ -21,9 +21,21 @@ const { pageTitle } = Astro.props;
       <div class="logo">
         <Image src={logo} alt="Phillips-Hansen Land Title"/>
       </div>
+      <div class = "hours">
+        <h3>Hours of Operation</h3>
+    
+        <div class = time>
+            <p>
+                Monday - Friday 
+                9am - 5pm
+            </p>
+        </div>
+    </div>
       <Navigation/>
     </div>
-    <h1>{pageTitle}</h1>
+    <div class="pageTitle">
+      <h1>{pageTitle}</h1>
+    </div>
     <slot/>
     <Footer/>
   </body>

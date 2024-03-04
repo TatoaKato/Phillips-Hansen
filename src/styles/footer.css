@@ -1,6 +1,6 @@
 footer { 
     background-color: rgb(216,217,225);
-    margin-top: 150px;
+    margin-top: 100px;
     padding-top: 30px;
     filter: drop-shadow(14px 11px 5px #4E3B3D);
 }
@@ -20,7 +20,7 @@ h2 {
 
 .contactUs a {
     text-decoration: none;
-    color: #4e3b3d;
+    color: rgb(216,217,225);
 }
 
 .contact { 
@@ -33,7 +33,7 @@ h2 {
 .contact a{
     text-decoration: none;
     text-decoration: none;
-    color: #4e3b3d;
+    color: rgb(216,217,225);
 }
 
 .socials {
@@ -56,20 +56,3 @@ h2 {
 }
 
 
-.hours {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-    color:#4E3B3D;
-}
-
-.time {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
-    text-align: center;
-    padding-bottom: 40px;
-    color: #4E3B3D
-}
