@@ -1,9 +1,22 @@
+.est {
+ margin-left: 50px;
+}
+
 
 img {
     float: right;
-    margin-left: 20px;
+    margin-left: 25px;
     margin-bottom: 15px;
+    height: 300px;
+    width: auto;
+}
+
+.page {
+    background-color: rgb(216,217,225);
+    border-radius: 15px;
+    padding: 20px;
 }
 p {
     font-weight: 500;
+
 }

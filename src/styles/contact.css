@@ -38,8 +38,8 @@ textarea {
 }
 
 button {
-    background-color: #434d26;
-    color: #e0c6ae;
+    background-color: rgb(21, 30, 98, .85);
+    color: rgb(216,217,225);
     font-size: x-large;
     border-radius: 30px;
     padding: 12px 20px;
