@@ -1,0 +1,76 @@
+.titlelogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: rgb(216,217,225);
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 70px;
+    
+}
+
+.types h2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.oc ul {
+    border-radius: 15px;
+    padding: 15px;
+    padding-left: 40px;
+    background-color: rgb(216,217,225);
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+
+.oc li {
+    padding: 15px;
+}
+
+.title p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.title li {
+    padding: 15px;
+}
+
+.lmp p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.lmp ul {
+    border-radius: 15px;
+    padding: 15px;
+    padding-left: 40px;
+    background-color: rgb(216,217,225);
+    border-radius: 15px;
+    margin-bottom: 60px;
+   
+}
+
+.lmp li {
+    padding: 15px;
+    text-decoration: none;
+}
+
+.faqh h2 {
+    margin-top: 90px;
+}
+
+.titlefaq ul {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    background-color: rgb(216,217,225);
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+
+
+

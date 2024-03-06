@@ -1,6 +1,7 @@
 footer { 
     background-color: rgb(216,217,225);
     margin-top: 100px;
+    margin-bottom: 20px;
     padding-top: 30px;
     filter: drop-shadow(14px 11px 5px #4E3B3D);
 }
@@ -32,6 +33,14 @@ h2 {
     margin-bottom: 20px;
     
 }
+
+.contact svg {
+    height: 20px;
+    width: auto;
+    float: left;
+    margin-right: 15px;
+}
+
 .contact a {
     text-decoration: none;
     text-decoration: none;
@@ -43,18 +52,24 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
+    
    
 }
+
+
 
 .socials a {
     background-color: rgb(216,217,225)
 
 }
 
-.socials img {
-    width: 40px;
-    height: 40px;   
+.socials svg {
+    height: 40px;
+    width: auto;
 }
+
+
 
 
 
