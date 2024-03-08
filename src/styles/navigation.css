@@ -45,7 +45,8 @@ a:hover {
     .dropdown > a[role="button"] {
         display: inline-block;
         padding: 6px 15px;
-        color: #333;
+        background-color: rgb(21, 30, 98, .85);
+        color: rgb(216,217,225);
         line-height: 1.5em;
         text-decoration: none;
         border: 1px solid #8c8c8c;
@@ -63,10 +64,7 @@ a:hover {
 
     .dropdown > label:after,
     .dropdown > a[role="button"]:after {
-            content: "\f0d7";
-            font-family: FontAwesome;
-            display: inline-block;
-            margin-left: 6px;
+            display: none;
     }
 
     .dropdown > ul {
@@ -75,8 +73,7 @@ a:hover {
         display: block;
         left: -100vw;
         top: calc(1.5em + 14px);
-        border: 1px solid #8c8c8c;
-        background: #fff;
+        background: rgb(216,217,225);
         padding: 6px 0;
         margin: 0;
         list-style: none;
@@ -90,15 +87,18 @@ a:hover {
       }
 
     .dropdown > ul a {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 6px 15px;
         text-decoration: none;
-        color: #333;
+        color: rgb(216,217,225);
+        margin: 15px 20px
       }
 
     .dropdown > ul a:hover,
     .dropdown > ul a:focus {
-        background: #ececec;
+        background: rgb(205, 82, 38, .85);;
     }
 
     .dropdown > input[type="checkbox"]:checked ~ ul,
