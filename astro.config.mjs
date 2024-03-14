@@ -1,12 +1,7 @@
 import { defineConfig } from 'astro/config';
+import vercel from '@astrojs/vercel/serverless';
 
 export default defineConfig({
-  // Set the output directory for the static build
-  output: 'public',
-
-  // Disable server-side rendering
-  ssr: false,
-
-  // Disable Vercel adapter
-  adapter: null
+  output: 'server',
+  adapter: vercel(),
 });
