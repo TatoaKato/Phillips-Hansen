@@ -36,6 +36,10 @@ a:hover {
         justify-content: center;
         align-items: center;
     }  
+
+    .dropdown svg {
+        height: 40px;
+    }
     
     .dropdown > input[type="checkbox"] {
         position: absolute;
@@ -46,15 +50,14 @@ a:hover {
     .dropdown > a[role="button"] {
         display: inline-block;
         padding: 6px 15px;
-        background-color: rgb(21, 30, 98, .85);
         color: rgb(216,217,225);
         line-height: 1.5em;
         text-decoration: none;
-        border: 1px solid #8c8c8c;
         cursor: pointer;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
+        margin-bottom: 10px;
     }
 
     .dropdown > label:hover,

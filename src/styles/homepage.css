@@ -1,10 +1,8 @@
 .missionWrapper{
     display: flex;
-    justify-content: ;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(216, 217, 225);
-    border-radius: 15px;
 }
 
 .missionHeader{
@@ -18,6 +16,8 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    background-color: rgb(216, 217, 225);
+    border-radius: 15px;
 }
 
 .homepageImage {
@@ -82,4 +82,27 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .missionWrapper{
+        background-size:contain;
+    }
+
+    .homepageImage {
+        margin-top: 20px;
+    }
+
+    .missionContent{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
 }
