@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
-    background-color: rgb(216,217,225);
-    margin-left: 300px;
-    margin-right: 300px;
-    border-radius: 70px;
     
+}
+
+.titlelogo img {
+    background-color: rgb(216,217,225);
+    border-radius: 15px;
 }
 
 .types h2 {
@@ -70,6 +70,8 @@
     border-radius: 15px;
     margin-bottom: 50px;
 }
+
+
 
 
 

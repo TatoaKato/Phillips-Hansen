@@ -43,5 +43,17 @@
     font-weight: 600;
 }
 
+@media(max-width: 800px) {
+    .bioWrapper {
+        flex-direction: column;
+    }
+    .div1 {
+        order: 2;
+    }
+    .div2 {
+        order: 1;
+    }
+}
+
 
 
