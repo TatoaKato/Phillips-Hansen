@@ -1,7 +1,12 @@
+// astro.config.mjs
 import { defineConfig } from 'astro/config';
-import vercel from '@astrojs/vercel/serverless';
 
 export default defineConfig({
-  output: 'server',
-  adapter: vercel(),
+  // Set the output directory for the static build
+  output: 'dist',
+
+  // Configure the adapter for static deployment (Netlify)
+  adapter: {
+    name: '@astrojs/netlify'
+  }
 });
