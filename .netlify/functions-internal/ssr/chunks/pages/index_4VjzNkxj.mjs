@@ -20,7 +20,7 @@ const titlelogo = new Proxy({"src":"/_astro/Insurance no back.Mv80GEH2.png","wid
 						}
 					});
 
-const buildingwide = new Proxy({"src":"/_astro/BuildingWide.2inWcPf_.jpg","width":6410,"height":4273,"format":"jpg","orientation":1}, {
+const buildingwide = new Proxy({"src":"/_astro/BuildingWide.rnM_tvT2.jpg","width":776,"height":517,"format":"jpg"}, {
 						get(target, name, receiver) {
 							if (name === 'clone') {
 								return structuredClone(target);

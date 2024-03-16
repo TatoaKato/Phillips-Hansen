@@ -5,7 +5,7 @@ import 'clsx';
 import 'cssesc';
 import { a as $$Image, $ as $$BaseLayout } from './about_EfaJ1Znc.mjs';
 /* empty css                                  */
-import { t as titlelogo } from './index_sV3WeNXo.mjs';
+import { t as titlelogo } from './index_4VjzNkxj.mjs';
 
 const $$Astro = createAstro();
 const $$TitleServices = createComponent(async ($$result, $$props, $$slots) => {

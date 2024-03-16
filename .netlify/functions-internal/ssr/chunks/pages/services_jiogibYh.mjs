@@ -5,7 +5,7 @@ import 'clsx';
 import 'cssesc';
 import { a as $$Image, $ as $$BaseLayout } from './about_EfaJ1Znc.mjs';
 /* empty css                          */
-import { t as titlelogo } from './index_sV3WeNXo.mjs';
+import { t as titlelogo } from './index_4VjzNkxj.mjs';
 import { l as logo2 } from './escrowServices_Z1bR9IFk.mjs';
 
 const $$Astro = createAstro();
