@@ -29,16 +29,20 @@ a:hover {
     .navigation{
         display: none; 
     } 
+    
     .dropdown{
-
-        position:relative;
+        position:absolute;
         display:flex;
         justify-content: center;
         align-items: center;
-    }  
+        margin-left: 115px;
+        width: 200px;
+    } 
+      
 
     .dropdown svg {
         height: 40px;
+        
     }
     
     .dropdown > input[type="checkbox"] {
