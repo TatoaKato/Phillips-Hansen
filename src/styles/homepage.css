@@ -87,10 +87,14 @@ h3{
 @media (max-width: 800px) {
     .missionWrapper{
         background-size:contain;
+        margin-left: 150px;
+        margin-right: 20px;
     }
 
     .homepageImage {
         margin-top: 20px;
+        padding-right: 10px;
+        padding-left: 5px;
     }
 
     .missionContent{
@@ -99,6 +103,10 @@ h3{
         margin-right: 20px;
         padding-right: 10px;
         padding-left: 10px;
+    }
+
+    .mission {
+       padding-left: 30px;
     }
 
     .services {
