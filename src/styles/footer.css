@@ -69,7 +69,19 @@ h2 {
     width: auto;
 }
 
+@media(max-width: 800px) {
+    footer{
+        width: fit-content;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 
+    .contact {
+        width: 500px;
+    }
+
+
+}
 
 
 
