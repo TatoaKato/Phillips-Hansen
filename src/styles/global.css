@@ -26,3 +26,10 @@ html {
     background-color: rgb(216,217,225);
     color: #E0C6AE;
   }
+  
+  @media(max-width: 800px){
+    h1 {
+      margin-left: 65px;
+    }
+  }
+    

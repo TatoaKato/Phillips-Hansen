@@ -22,3 +22,11 @@ li {
     font-size: x-large;
 }
 
+@media(max-width: 800px) {
+    .FAQ {
+        margin-left: 80px;
+        width: auto;
+    
+    }
+}
+
