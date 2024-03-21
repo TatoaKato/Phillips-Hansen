@@ -18,3 +18,23 @@ p {
     font-weight: 500;
 
 }
+
+@media(max-width: 800px) {
+    .est h2 {
+        margin-right: 120px;
+    }
+    
+    img {
+        width: 300px;
+        height: auto;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        
+    }
+
+    .page {
+        width:450px;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+}

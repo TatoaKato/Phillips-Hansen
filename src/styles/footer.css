@@ -71,9 +71,10 @@ h2 {
 
 @media(max-width: 800px) {
     footer{
-       width: 480px;
-    }
-        
+        width: 400px;
+        margin-left: 20px;
+     }
+         
 
   
 
