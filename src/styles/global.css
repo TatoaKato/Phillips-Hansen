@@ -28,8 +28,11 @@ html {
   }
   
   @media(max-width: 800px){
+    body {
+      
+    }
+    
     h1 {
       margin-left: 65px;
     }
   }
-    
