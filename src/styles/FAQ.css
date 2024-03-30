@@ -24,9 +24,16 @@ li {
 
 @media(max-width: 800px) {
     .FAQ {
-        margin-left: 80px;
         width: auto;
+    }
+
+    li {
+        margin-bottom: 30px;
+        font-size: x-large;
+    }
     
+    .qs {
+        font-size: xx-large;
     }
 }
 

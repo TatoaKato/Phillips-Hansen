@@ -97,10 +97,11 @@ a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 6px 15px;
+        padding: 20px 15px;
         text-decoration: none;
         color: rgb(216,217,225);
-        margin: 15px 20px
+        margin: 15px 20px;
+        font-size:xx-large;
       }
 
     .dropdown > ul a:hover,
