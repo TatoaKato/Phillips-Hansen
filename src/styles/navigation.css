@@ -35,8 +35,7 @@ a:hover {
         display:flex;
         justify-content: center;
         align-items: center;
-        margin-left: 115px;
-        width: 200px;
+        width: 100%;
     } 
       
 
@@ -79,7 +78,7 @@ a:hover {
         position: absolute;
         z-index: 999;
         display: block;
-        left: -100vw;
+        left: -400vw;
         top: calc(1.5em + 14px);
         background: rgb(216,217,225);
         padding: 6px 0;
