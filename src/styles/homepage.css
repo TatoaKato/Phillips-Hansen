@@ -85,6 +85,9 @@ h3{
 }
 
 @media (max-width: 800px) {
+    *{
+       font-size: large; 
+    }
     .missionWrapper{
         background-size:contain;
 
