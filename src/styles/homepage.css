@@ -87,8 +87,7 @@ h3{
 @media (max-width: 800px) {
     .missionWrapper{
         background-size:contain;
-        margin-left: 113px;
-        margin-right: 20px;
+
     }
 
     .homepageImage {
@@ -109,15 +108,8 @@ h3{
        padding-left: 30px;
     }
 
-
-    .servicesWrapper h2 {
-      
-        margin-left: 85px;
-    }
-
     .services {
         flex-direction: column;
-        margin-left: 75px;
         
     }
 }

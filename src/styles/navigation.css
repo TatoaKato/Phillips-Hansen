@@ -35,7 +35,7 @@ a:hover {
         display:flex;
         justify-content: center;
         align-items: center;
-       
+        width: 100%;
     } 
       
 
@@ -78,7 +78,7 @@ a:hover {
         position: absolute;
         z-index: 999;
         display: block;
-        left: -100vw;
+        left: -400vw;
         top: calc(1.5em + 14px);
         background: rgb(216,217,225);
         padding: 6px 0;
@@ -97,10 +97,11 @@ a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 6px 15px;
+        padding: 20px 15px;
         text-decoration: none;
         color: rgb(216,217,225);
-        margin: 15px 20px
+        margin: 15px 20px;
+        font-size:xx-large;
       }
 
     .dropdown > ul a:hover,
