@@ -6,11 +6,6 @@
 
 li {
     margin-bottom: 30px;
-    font-size: large;
-}
-
-.qs {
-    font-size: larger;
 }
 
 .button {
@@ -18,9 +13,7 @@ li {
     justify-content: center;
     align-items: center;
 }
-.button a {
-    font-size: x-large;
-}
+
 
 @media(max-width: 800px) {
     .FAQ {
@@ -29,11 +22,11 @@ li {
 
     li {
         margin-bottom: 30px;
-        font-size: x-large;
     }
     
-    .qs {
+    .button a{
         font-size: xx-large;
     }
+
 }
 
