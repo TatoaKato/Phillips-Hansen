@@ -1,7 +1,10 @@
+*{
+  font-size: 20px;
+}
+
 html {
     background-color: rgb(224, 198, 174, .95);
     color: #4E3B3D;
-
     font-family: sans-serif;
   }
   
