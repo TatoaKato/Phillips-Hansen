@@ -7,8 +7,9 @@
     background-color: #d8d9e1;
     width: 800px;
     border-radius: 15px;
-    padding: 25px;
-    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .formStuff {
